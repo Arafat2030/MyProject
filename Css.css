@@ -1,0 +1,102 @@
+@import url(root.css);
+body
+{
+    margin:0px;
+	padding:0px;
+}
+                                                   /*    Navbar Style    */
+
+.navbar
+{
+    text-align:center;
+    background-color:#282828;
+    padding:20px;
+}
+.navbar  a{
+	 padding:16px;
+     color:#fff;
+	 font-size:20px;
+	 font-weight:bold;
+	 text-decoration:none;
+	 transition:0.3s;
+}
+
+.navbar  a:hover{
+     background-color:#383838;
+	 
+}
+.Container
+{
+    padding-right:15px;
+	padding-left:15px;
+	margin:0px
+}
+                                                   /*    header Style    */
+												   									   
+.header
+{
+    padding:10rem 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.headerwraper
+{
+    display:flex;
+	justify-content:left;
+}
+.img
+{
+	border-radius:50%
+}
+.txt
+{
+	padding-left:5rem;
+}
+.txt h1
+{
+	 font-size:5 rem;
+	 font-weight:100;
+}
+.txt p
+{
+	 font-size:1.5rem;
+	 color:#888;
+}
+.txt strong
+{
+	 color:#000;
+}
+.txt a
+{
+	 color:#888;
+	 transition:0.3s;
+
+}
+.txt a:hover{
+     color:#383838;
+	 transition:0.3s; 
+}
+
+.txt button
+{
+	 color:var(--button);
+	 font-size:1rem;
+	 padding :1.5rem 5rem;
+	 margin-top:2rem;
+	 border-radius:5px;
+	 background-color:blue;
+}
+.txt button:hover
+{
+	 color:red;
+	 cursor:pointer;
+	 
+}
+.stuf
+{
+  padding:var(--padding);	 
+}
+
+.stuf h1 ,span
+{
+	 text-align:center;
+}
